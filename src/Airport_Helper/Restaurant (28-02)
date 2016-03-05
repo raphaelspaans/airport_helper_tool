@@ -1,0 +1,17 @@
+package Airport_Helper;
+
+public class Restaurant extends Terminal {
+
+	public String name;
+	public String cuisine;
+
+	
+
+	Restaurant(String shortcut, String terminalNumber, String nameRestaurant, String nameCuisine)
+	{
+			super(shortcut, terminalNumber);
+			name = nameRestaurant;
+			cuisine = nameCuisine;
+	}
+
+}

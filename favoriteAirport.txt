@@ -1,0 +1,10 @@
+hopla,KL1821,AMS,KLM
+hopla,LU181,TXL,Lufthansa
+hopla,KL605,AMS,KLM
+hopla,E71,BCN,Emirates
+hopla,LU6449,TXL,Lufthansa
+hopla,VA606,FCO,Virgin
+hopla,VA42,FCO,Virgin
+hopla,AF1434,CDG,AirFrance
+hopla,AF3884,CDG,AirFrance
+hopla,AF3831,BCN,AirFrance

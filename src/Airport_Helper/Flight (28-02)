@@ -1,0 +1,36 @@
+package Airport_Helper;
+
+
+//Old flight
+public class Flight {
+	
+	public String number;
+	public String airlineCode;
+	public int[][] date =  new int[12][31]; 
+	public String deptTime;
+	public String arTime;
+	public String deptAirport;
+	public String arAirport;
+	public String deptTerminal;
+	
+
+	Flight(String flightnumber, String flightAirlineCode, int[][] flightDate, String flightDeptTime, String flightArTime, String flightDeptAirport, String flightArAirport, String flightDeptTerminal)
+	{
+		number = flightnumber;
+		airlineCode = flightAirlineCode;
+		date = flightDate;
+		deptTime = flightDeptTime;
+		arTime = flightArTime;
+		deptAirport = flightDeptAirport;
+		arAirport = flightArAirport;
+		deptTerminal = flightDeptTerminal;
+	}
+
+
+
+	public void printFlightNumber()
+	{
+		System.out.println("Flight number: " + number);
+	}
+	
+}	
